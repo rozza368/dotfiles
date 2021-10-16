@@ -1,0 +1,14 @@
+alias mpvaudio="mpv --no-video"
+alias cdhdd="cd $HDD_USER"
+alias mountsmb="sudo mount -t cifs -o username=rory //192.168.1.111/MediaShare /mnt/smbserv"
+alias yt="youtube-dl"
+alias yt3="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
+alias yt4="youtube-dl --recode-video mp4 -o '%(title)s | %(uploader)s.%(ext)s'"
+alias phpserver='php -S localhost:8000'
+alias mpvyt="mpv --ytdl-format=best[height<=?1080]"
+alias clock="tty-clock -Scbsn"
+alias timer3="termdown 3m"
+alias converttoopus="ffmpeg -i $1 -c:a libopus -b:a 64k -vbr on -compression_level 10 -frame_duration 60 -application voip $1.opus"
+alias upgrade="sudo apt update && sudo apt upgrade -y"
+alias onedrivesync="onedrive --synchronize"
+
