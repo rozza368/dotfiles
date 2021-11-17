@@ -1,9 +1,9 @@
 alias mpvaudio="mpv --no-video"
 alias cdhdd="cd $HDD_USER"
 alias mountsmb="sudo mount -t cifs -o username=rory //192.168.1.111/MediaShare /mnt/smbserv"
-alias yt="youtube-dl"
-alias yt3="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
-alias yt4="youtube-dl --recode-video mp4 -o '%(title)s | %(uploader)s.%(ext)s'"
+alias yt="yt-dlp"
+alias yt3="yt-dlp --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
+alias yt4="yt-dlp --recode-video mp4 -o '%(title)s | %(uploader)s.%(ext)s'"
 alias phpserver='php -S localhost:8000'
 alias mpvyt="mpv --ytdl-format=best[height<=?1080]"
 alias clock="tty-clock -Scbsn"
@@ -12,4 +12,5 @@ alias converttoopus="ffmpeg -i $1 -c:a libopus -b:a 64k -vbr on -compression_lev
 alias upgrade="sudo apt update && sudo apt upgrade -y"
 alias onedrivesync="onedrive --synchronize"
 alias py="python3"
+alias v="nvim"
 
