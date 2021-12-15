@@ -8,6 +8,7 @@ set tabstop=4
 
 call plug#begin("~/.config/nvim/plugged")
     Plug 'nvim-lua/completion-nvim'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Plug 'neovim/nvim-lspconfig'
     Plug 'morhetz/gruvbox'
     Plug 'itchyny/lightline.vim'

@@ -3,7 +3,7 @@ alias cdhdd="cd $HDD_USER"
 alias mountsmb="sudo mount -t cifs -o username=rory //192.168.1.111/MediaShare /mnt/smbserv"
 alias yt="yt-dlp"
 alias yt3="yt-dlp --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
-alias yt4="yt-dlp --recode-video mp4 -o '%(title)s | %(uploader)s.%(ext)s'"
+alias yt4="yt-dlp --recode-video mp4 -o '%(title)s.%(ext)s'"
 alias phpserver='php -S localhost:8000'
 alias mpvyt="mpv --ytdl-format=best[height<=?1080]"
 alias clock="tty-clock -Scbsn"
