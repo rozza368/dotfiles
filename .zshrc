@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export WIN_USER="/mnt/windows/Users/Rory C"
-export HDD_USER="/mnt/data/Users/roryt"
+export HDD_USER="/mnt/data/User"
 export EDITOR="vim"
 
 test -r ~/.aliases && source ~/.aliases
